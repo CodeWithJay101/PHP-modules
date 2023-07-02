@@ -1,0 +1,10 @@
+Database name = tasks
+
+To create the "users" table (sql query)
+CREATE TABLE users(
+    usersId int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    usersName varchar(130) NOT NULL,
+    usersEmail varchar(130) NOT NULL,
+    usersUid varchar(130) NOT NULL,
+    usersPwd varchar(130) NOT NULL
+)

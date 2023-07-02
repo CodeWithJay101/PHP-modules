@@ -1,0 +1,39 @@
+.index-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.index-form{
+    display: grid;
+    justify-items: start;
+    gap: 20px;
+}
+.listing-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    text-decoration: none;
+    border: 2px solid grey;
+    padding: 8px;
+    border-radius: 10px;
+}
+.btns{
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+.sec{
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+}
+.logout-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
